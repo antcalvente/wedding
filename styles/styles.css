@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 100;
+    font-size: 1.5vw;
+    position: relative;
+}
+
+@font-face {
+    font-family: GreatVibes;
+    src: url(GreatVibes-Regular.ttf);
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url(Montserrat-Light.ttf);
+}
+
+body {
+    background: url("../images/background.jpg") repeat-y;
+    font-family: Monserrat, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #61564f;
+}
+
+.Header__who, .Information__title, .Confirmation__title, .Footer__title,
+.Story__title, .Songs__title, .Instagram__title, .Gift__title {
+    font-family: GreatVibes, sans-serif;
+}
+
+.Information__title, .Confirmation__title, .Footer__title,
+.Story__title, .Songs__title, .Instagram__title, .Gift__title {
+    font-size: 3vw;
+}
+
+.Information__description, .Confirmation__description, .Gift__description,
+.Story__description, .Songs__description, .Instagram__description {
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+    line-height: 3vw;
+}
+
+.Information__button, .Confirmation__button, .Gift__button,
+.Story__button, .Songs__button, .Instagram__button {
+    border-radius: 1vw;
+    background-color: #FFFFFF75;
+    border: 3px solid #61564f;
+    padding: 1vw 2vw;
+    color: #61564f;
+    cursor: pointer;
+}
+
+.Information__image, .Story__image, .Gift__image {
+    width: 100px;
+}
+
+.Information, .Story, .Gift, .Footer {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.Counter, .Confirmation, .Songs {
+    padding: 5% 20% 5% 20%;
+    background-color: #edefef;
+}
+
+.Header__overlay, .Instagram__overlay {
+    background-color: #FFF;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Header {
+    background: url("../images/header.jpg") no-repeat;
+    background-size: cover;
+    padding: 0 20% 0 20%;
+    height: 45vw;
+}
+
+.Header__title {
+    font-size: 2vw;
+    padding-top: 4vw;
+}
+
+.Header__who {
+    font-size: 10vw;
+    margin-top: 10vw;
+}
+
+.Header__when {
+    margin-top: 13vw;
+}
+
+.Counter {
+    height: 8vw;
+}
+
+.Instagram {
+    background: url("../images/instagram.jpg") no-repeat;
+    background-size: cover;
+    padding: 5% 20% 5% 20%;
+}
+
+.Instagram__title {
+    font-family: Monserrat, sans-serif;
+    font-weight: bold;
+}
+
+.Instagram__button {
+    background-color: #61564f;
+    color: #edefef;
+    transition: all 0.3s;
+}
+
+.Instagram__button:hover {
+    background-color: #edefef;
+    color: #61564f;
+}
+
+.Footer__title {
+    font-size: 5vw;
+}
