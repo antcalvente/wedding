@@ -102,6 +102,15 @@ a {
     height: 45vw;
 }
 
+.Header__languages {
+    position: absolute;
+    top: 1vw;
+    right: 3vw;
+    display: flex;
+    justify-content: space-between;
+    width: 13vw;
+}
+
 .Header__title {
     font-size: 2vw;
     padding-top: 4vw;
