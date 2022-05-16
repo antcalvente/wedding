@@ -1,0 +1,73 @@
+@media(max-width: 600px) {
+    * {
+        font-size: 3vw;
+    }
+
+    .Header {
+        height: 85vw;
+        background-position: -40vw;
+    }
+
+    .Header__title {
+        padding-top: 15vw;
+        font-size: 4vw;
+    }
+
+    .Header__who {
+        margin-top: 20vw;
+    }
+
+    .Header__when {
+        margin-top: 26vw;
+    }
+
+    .Information__title, .Confirmation__title, .Footer__title,
+    .Story__title, .Songs__title, .Instagram__title, .Gift__title {
+        font-size: 6vw;
+    }
+
+    .Information__description, .Confirmation__description, .Gift__description,
+    .Story__description, .Songs__description, .Instagram__description {
+        line-height: 5vw;
+    }
+
+    .Information__button, .Confirmation__button, .Gift__button, .Story__button,
+    .Songs__button, .Instagram__button {
+        padding: 2.5vw 7vw;
+        font-size: 3.5vw;
+    }
+
+    .Information, .Story, .Gift, .Footer {
+        margin: 1vw 4vw 7vw 4vw;
+    }
+
+    .Counter, .Confirmation, .Songs {
+        padding: 7% 20%;
+    }
+
+    .Instagram__title {
+        font-size: 5vw;
+    }
+
+    .Footer {
+        margin-top: 7vw;
+    }
+}
+
+@media(max-width: 500px) {
+    * {
+        font-size: 3.5vw;
+    }
+
+    .Information__title, .Confirmation__title, .Footer__title, .Story__title, .Songs__title, .Instagram__title, .Gift__title {
+        font-size: 7vw;
+    }
+
+    .Counter__days, .Counter__hours, .Counter__minutes, .Counter__seconds {
+        font-size: 3.5vw;
+    }
+
+    .Counter__text {
+        font-size: 3vw;
+    }
+}

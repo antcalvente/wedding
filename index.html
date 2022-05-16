@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Nos casamos ❤ Andrea y Antonio</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <script src="js/regressiveCount.js"></script>
   </head>
   <body>
     <div class="Content">
@@ -15,8 +17,23 @@
         <h1 class="Header__who">Andrea y Antonio</h1>
         <h3 class="Header__when">SÁBADO 15 DE JULIO</h3>
       </header>
-      <section class="Counter">
-        XX dias
+      <section class="Counter" id="clockdiv">
+        <div>
+          <span class="Counter__days"></span>
+          <span class="Counter__text">días</span>
+        </div>
+        <div>
+          <span class="Counter__hours"></span>
+          <span class="Counter__text">horas</span>
+        </div>
+        <div>
+          <span class="Counter__minutes"></span>
+          <span class="Counter__text">minutos</span>
+        </div>
+        <span>
+          <span class="Counter__seconds"></span>
+          <span class="Counter__text">segundos</span>
+        </div>
       </section>
       <section class="Information">
         <img src="images/ramal.png" class="Information__image"/>

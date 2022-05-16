@@ -53,6 +53,23 @@ a {
     padding: 1vw 2vw;
     color: #61564f;
     cursor: pointer;
+    transition: all 0.3s;
+}
+
+.Information__button:hover, .Gift__button:hover, .Story__button:hover {
+    background-color: #61564f;
+    color: #edefef;
+}
+
+.Instagram__button, .Confirmation__button, .Songs__button  {
+    background-color: #61564f;
+    color: #edefef;
+    transition: all 0.3s;
+}
+
+.Instagram__button:hover, .Confirmation__button:hover, .Songs__button:hover {
+    background-color: #edefef;
+    color: #61564f;
 }
 
 .Information__image, .Story__image, .Gift__image {
@@ -65,7 +82,7 @@ a {
 }
 
 .Counter, .Confirmation, .Songs {
-    padding: 5% 20% 5% 20%;
+    padding: 5% 20%;
     background-color: #edefef;
 }
 
@@ -82,7 +99,7 @@ a {
 .Header {
     background: url("../images/header.jpg") no-repeat;
     background-size: cover;
-    padding: 0 20% 0 20%;
+    padding: 0 20%;
     height: 45vw;
 }
 
@@ -101,7 +118,21 @@ a {
 }
 
 .Counter {
-    height: 8vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 20%;
+}
+
+.Counter__days, .Counter__hours, .Counter__minutes, .Counter__seconds {
+    display: block;
+    font-size: 3vw;
+    color: #61564f;
+}
+
+.Counter__text {
+    color: #61564f;
+    margin-top: 2vw;
+    display: block;
 }
 
 .Instagram {
@@ -113,17 +144,6 @@ a {
 .Instagram__title {
     font-family: Monserrat, sans-serif;
     font-weight: bold;
-}
-
-.Instagram__button {
-    background-color: #61564f;
-    color: #edefef;
-    transition: all 0.3s;
-}
-
-.Instagram__button:hover {
-    background-color: #edefef;
-    color: #61564f;
 }
 
 .Footer__title {
