@@ -77,8 +77,7 @@ a {
 }
 
 .Information, .Story, .Gift, .Footer {
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin: 5vw;
 }
 
 .Counter, .Confirmation, .Songs {
@@ -139,6 +138,15 @@ a {
     background: url("../images/instagram.jpg") no-repeat;
     background-size: cover;
     padding: 5% 20% 5% 20%;
+}
+
+.Instagram__icon {
+    width: 6vw;
+    margin-bottom: 2vw;
+}
+
+.Instagram__overlay {
+    opacity: 0.8;
 }
 
 .Instagram__title {

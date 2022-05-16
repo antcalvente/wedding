@@ -55,8 +55,9 @@
         font-size: 5vw;
     }
 
-    .Instagram__overlay {
-        opacity: 0.8;
+    .Instagram__icon {
+        width: 8vw;
+        margin-bottom: 4vw;
     }
 
     .Counter__days, .Counter__hours, .Counter__minutes, .Counter__seconds {
