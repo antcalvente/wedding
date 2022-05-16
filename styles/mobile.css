@@ -1,52 +1,70 @@
-@media(max-width: 600px) {
+@media(max-width: 900px) {
     * {
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     .Header {
         height: 85vw;
         background-position: -40vw;
+        padding: 0;
     }
 
     .Header__title {
         padding-top: 15vw;
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     .Header__who {
         margin-top: 20vw;
+        font-size: 14vw;
     }
 
     .Header__when {
-        margin-top: 26vw;
+        margin-top: 18vw;
     }
 
     .Information__title, .Confirmation__title, .Footer__title,
     .Story__title, .Songs__title, .Instagram__title, .Gift__title {
-        font-size: 6vw;
+        font-size: 10vw;
     }
 
     .Information__description, .Confirmation__description, .Gift__description,
     .Story__description, .Songs__description, .Instagram__description {
-        line-height: 5vw;
+        line-height: 7vw;
+        margin-top: 4vw;
     }
 
     .Information__button, .Confirmation__button, .Gift__button, .Story__button,
     .Songs__button, .Instagram__button {
-        padding: 2.5vw 7vw;
-        font-size: 3.5vw;
+        padding: 2.5vw 8vw;
+        font-size: 4.5vw;
+        margin-top: 4vw;
+    }
+
+    .Information, .Story, .Gift, .Footer,
+    .Counter, .Confirmation, .Songs, .Instagram {
+        padding: 7% 10%;
+        margin: 0;
     }
 
     .Information, .Story, .Gift, .Footer {
-        margin: 1vw 4vw 7vw 4vw;
-    }
-
-    .Counter, .Confirmation, .Songs {
-        padding: 7% 20%;
+        padding: 0 10% 7% 10%;
     }
 
     .Instagram__title {
         font-size: 5vw;
+    }
+
+    .Instagram__overlay {
+        opacity: 0.8;
+    }
+
+    .Counter__days, .Counter__hours, .Counter__minutes, .Counter__seconds {
+        font-size: 5vw;
+    }
+
+    .Counter__text {
+        font-size: 4vw;
     }
 
     .Footer {
@@ -54,20 +72,23 @@
     }
 }
 
-@media(max-width: 500px) {
-    * {
-        font-size: 3.5vw;
+@media(max-width: 550px) {
+    .Header {
+        height: 120vw;
+        background-position: -75vw;
     }
 
-    .Information__title, .Confirmation__title, .Footer__title, .Story__title, .Songs__title, .Instagram__title, .Gift__title {
-        font-size: 7vw;
+    .Header__title {
+        padding-top: 20vw;
+        font-size: 8vw;
     }
 
-    .Counter__days, .Counter__hours, .Counter__minutes, .Counter__seconds {
-        font-size: 3.5vw;
+    .Header__who {
+        margin-top: 30vw;
+        font-size: 15vw;
     }
 
-    .Counter__text {
-        font-size: 3vw;
+    .Header__when {
+        margin-top: 30vw;
     }
 }
