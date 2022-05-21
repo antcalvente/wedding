@@ -72,7 +72,7 @@ a {
     color: #61564f;
 }
 
-.Information__image, .Gift__image {
+.Information__image, .Story__headerImage, .Gift__image {
     width: 100px;
 }
 
