@@ -55,6 +55,25 @@
         width: 40vw;
     }
 
+    .Story__image {
+        width: 20vw;
+        height: 26vw;
+    }
+
+    .Story__image--squared {
+        width: 25vw;
+        height: 20vw;
+    }
+
+    .Story__image--widder, .Story__video {
+        width: 46vw;
+        height: 19vw;
+    }
+
+    .Story__video {
+        height: 26vw;
+    }
+
     .Instagram__title {
         font-size: 5vw;
     }
@@ -95,5 +114,28 @@
 
     .Header__when {
         margin-top: 30vw;
+    }
+
+    .Story__images {
+        justify-content: center;
+    }
+
+    .Story__image {
+        width: 40vw;
+        height: 50vw;
+    }
+
+    .Story__image--squared {
+        width: 40vw;
+        height: 35vw;
+    }
+
+    .Story__image--widder, .Story__video {
+        width: 80vw;
+        height: 33vw;
+    }
+
+    .Story__video {
+        height: 45vw;
     }
 }

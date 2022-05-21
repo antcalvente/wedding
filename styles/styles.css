@@ -72,8 +72,39 @@ a {
     color: #61564f;
 }
 
-.Information__image, .Story__image, .Gift__image {
+.Information__image, .Gift__image {
     width: 100px;
+}
+
+.Story__images {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Story__image {
+    width: 15vw;
+    height: 21vw;
+    margin-bottom: 2vw;
+}
+
+.Story__image--squared {
+    width: 20vw;
+    height: 15vw;
+}
+
+.Story__image--widder {
+    width: 28vw;
+    height: 12vw;
+}
+
+.Story__video {
+    width: 36vw;
+    height: 21vw;
+    margin-bottom: 2vw;
 }
 
 .Information, .Story, .Gift, .Footer {
