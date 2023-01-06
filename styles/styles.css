@@ -89,6 +89,7 @@ a {
     width: 15vw;
     height: 21vw;
     margin-bottom: 2vw;
+    object-fit: contain;
 }
 
 .Story__image--squared {
@@ -105,6 +106,10 @@ a {
     width: 36vw;
     height: 21vw;
     margin-bottom: 2vw;
+}
+
+.Story__description__link {
+    text-decoration: underline;
 }
 
 .Information, .Story, .Gift, .Footer {
