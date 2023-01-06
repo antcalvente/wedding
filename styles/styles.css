@@ -188,6 +188,21 @@ a {
     display: block;
 }
 
+#Gift__info {
+    display: none;
+    margin-top: 2vw;
+    justify-content: center;
+}
+
+#Gift__info th {
+    font-weight: bold;
+    padding-right: 1vw;
+}
+
+#Gift__info td {
+    padding-right: 1vw;
+}
+
 .Instagram {
     background: url("../images/instagram.jpg") no-repeat;
     background-size: cover;

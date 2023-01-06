@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/mobile.css" />
     <script src="js/regressiveCount.js"></script>
+    <script src="js/giftsPopup.js"></script>
   </head>
   <body>
     <div class="Content">
@@ -59,10 +60,6 @@
           Walks at the mountains with cows, visits to Catalonia, Andalusia, Corsica and a few other countries... and suddenly, we took the most important decision on summer 2020 that would change our lifes  🐕<br>
           Since then, everything has been getting better and better and we can't find a better way to express it than inviting you to our wedding
         <div class="Story__images">
-          <img src="./images/us3.jpg" class="Story__image" loading="lazy"/>
-          <video controls muted preload="none" poster="./images/oliPreload.png" class="Story__video">
-            <source src="./images/oli.mp4" type="video/mp4">
-          </video>
           <div class="Story__images">
             <figure class="Story__figure">
               <img src="./images/us3.jpg" class="Story__image" loading="lazy"/>
@@ -118,7 +115,71 @@
           However, if you want to give us a gift for the wedding or the honeymoon, write to one of us directly by whatsapp.
           We're going to Fuerteventura, here below you can nose around what we'll be doing 😏
         </p>
-        <a href=""><button class="Gift__button">NOSE AROUND</button></a>
+        <button class="Gift__button" onclick="toggleGifts()">NOSE AROUND</button>
+        <div id="Gift__info">
+          <table>
+            <thead>
+              <tr>
+                <th>Activity</th>
+                <th>Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Flights to Fuerteventura</td>
+                <td>250 €</td>
+              </tr>
+              <tr>
+                <td>Flights to Switzerland</td>
+                <td>250 €</td>
+              </tr>
+              <tr>
+                <td>Night on the desert</td>
+                <td>150 €</td>
+              </tr>
+              <tr>
+                <td>Rental car</td>
+                <td>125 €</td>
+              </tr>
+              <tr>
+                <td>1 night at a breach front hotel</td>
+                <td>110 €</td>
+              </tr>
+              <tr>
+                <td>Spa</td>
+                <td>100 €</td>
+              </tr>
+              <tr>
+                <td>Buggy tour</td>
+                <td>100 €</td>
+              </tr>
+              <tr>
+                <td>Excursion in search of cetaceans</td>
+                <td>80 €</td>
+              </tr>
+              <tr>
+                <td>Tickets to Oasis Park</td>
+                <td>60 €</td>
+              </tr>
+              <tr>
+                <td>Trip to the "Parque Nacional Isla de Lobos"</td>
+                <td>50 €</td>
+              </tr>
+              <tr>
+                <td>Restaurant to make our bellies happy</td>
+                <td>50 €</td>
+              </tr>
+              <tr>
+                <td>1 day of Oli's day care</td>
+                <td>30 €</td>
+              </tr>
+              <tr>
+                <td>Visit to an Aloe Vera's farm</td>
+                <td>25 €</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
       <section class="Instagram">
         <div class="Instagram__overlay"></div>

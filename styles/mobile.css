@@ -78,6 +78,14 @@
         height: 26vw;
     }
 
+    #Gift__info th {
+        font-size: 3vw;
+    }
+
+    #Gift__info td {
+        font-size: 3vw;
+    }
+
     .Instagram__title {
         font-size: 5vw;
     }
@@ -149,5 +157,22 @@
 
     .Story__figure > figcaption {
         font-size: 3vw;
+    }
+
+    #Gift__info th {
+        font-size: 4vw;
+    }
+
+    #Gift__info th:last-child {
+        min-width: 13vw;
+    }
+
+    #Gift__info td {
+        font-size: 4vw;
+    }
+
+    #Gift__info td:last-child {
+        min-width: 13vw;
+        text-align: center;
     }
 }

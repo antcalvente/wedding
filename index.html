@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/mobile.css" />
     <script src="js/regressiveCount.js"></script>
+    <script src="js/giftsPopup.js"></script>
   </head>
   <body>
     <div class="Content">
@@ -112,7 +113,71 @@
           Si quieres hacernos un regalo darnos un detallito por la boda o la luna de miel, háblanos por whatsapp directamente.
           Nos vamos a Fuerteventura, aquí debajo puedes cotillear qué vamos a hacer en nuestra luna de miel 😏
         </p>
-        <a href=""><button class="Gift__button">COTILLEAR</button></a>
+        <button class="Gift__button" onclick="toggleGifts()">COTILLEAR</button>
+        <div id="Gift__info">
+          <table>
+            <thead>
+            <tr>
+              <th>Actividad</th>
+              <th>Coste</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>Vuelos ida a Fuerteventura</td>
+              <td>250 €</td>
+            </tr>
+            <tr>
+              <td>Vuelos vuelta a Suissa</td>
+              <td>250 €</td>
+            </tr>
+            <tr>
+              <td>Noche en el desierto</td>
+              <td>150 €</td>
+            </tr>
+            <tr>
+              <td>Alquiler de coche</td>
+              <td>125 €</td>
+            </tr>
+            <tr>
+              <td>Noche en el hotel en la costa</td>
+              <td>110 €</td>
+            </tr>
+            <tr>
+              <td>Dia de spa</td>
+              <td>100 €</td>
+            </tr>
+            <tr>
+              <td>Tour en buggy</td>
+              <td>100 €</td>
+            </tr>
+            <tr>
+              <td>Excursión en busca de cetáceos</td>
+              <td>80 €</td>
+            </tr>
+            <tr>
+              <td>Entrada a Oasis Park</td>
+              <td>60 €</td>
+            </tr>
+            <tr>
+              <td>Excursión al Parque Nacional Isla de Lobos</td>
+              <td>50 €</td>
+            </tr>
+            <tr>
+              <td>Restaurante para tener la barriga contenta</td>
+              <td>50 €</td>
+            </tr>
+            <tr>
+              <td>1 dia de guardería de Oli</td>
+              <td>30 €</td>
+            </tr>
+            <tr>
+              <td>Visita plantación de Aloe Vera</td>
+              <td>25 €</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
       <section class="Instagram">
         <div class="Instagram__overlay"></div>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/mobile.css" />
     <script src="js/regressiveCount.js"></script>
+    <script src="js/giftsPopup.js"></script>
   </head>
   <body>
     <div class="Content">
@@ -117,7 +118,71 @@
         <p class="Gift__description">
           Si vols fer-nos un regal o un detallet pel casament o per la lluna de mel, escriu-nos per whattsapp directament. Anirem a Fuerteventura, i aquí sota pots tafanejar a veure què farem... 😏
         </p>
-        <a href=""><button class="Gift__button">TAFANEJA AQUÍ</button></a>
+        <button class="Gift__button" onclick="toggleGifts()">TAFANEJA AQUÍ</button>
+        <div id="Gift__info">
+          <table>
+            <thead>
+            <tr>
+              <th>Activitat</th>
+              <th>Cost</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>Vols anada a Fuerteventura</td>
+              <td>250 €</td>
+            </tr>
+            <tr>
+              <td>Vols tornada a Suissa</td>
+              <td>250 €</td>
+            </tr>
+            <tr>
+              <td>Nit al desert</td>
+              <td>150 €</td>
+            </tr>
+            <tr>
+              <td>Lloger de cotxe</td>
+              <td>125 €</td>
+            </tr>
+            <tr>
+              <td>Nit a l'hotel de la costa</td>
+              <td>110 €</td>
+            </tr>
+            <tr>
+              <td>Dia de spa</td>
+              <td>100 €</td>
+            </tr>
+            <tr>
+              <td>Tour en buggy</td>
+              <td>100 €</td>
+            </tr>
+            <tr>
+              <td>Excursió en busca de cetacis</td>
+              <td>80 €</td>
+            </tr>
+            <tr>
+              <td>Entrada a Oasis Park</td>
+              <td>60 €</td>
+            </tr>
+            <tr>
+              <td>Excursió al Parque Nacional Isla de Lobos</td>
+              <td>50 €</td>
+            </tr>
+            <tr>
+              <td>Restaurant para tenir la panxa contenta</td>
+              <td>50 €</td>
+            </tr>
+            <tr>
+              <td>1 dia de guardería de Oli</td>
+              <td>30 €</td>
+            </tr>
+            <tr>
+              <td>Visita plantació d'Aloe Vera</td>
+              <td>25 €</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
       <section class="Instagram">
         <div class="Instagram__overlay"></div>
