@@ -138,13 +138,13 @@
     }
 
     .Story__image--squared {
-        width: 40vw;
-        height: 35vw;
+        width: 55vw;
+        height: 40vw;
     }
 
     .Story__image--widder, .Story__video {
         width: 80vw;
-        height: 33vw;
+        height: 40vw;
     }
 
     .Story__video {
