@@ -70,6 +70,10 @@
         height: 19vw;
     }
 
+    .Story__figure > figcaption {
+        font-size: 1.5vw;
+    }
+
     .Story__video {
         height: 26vw;
     }
@@ -137,5 +141,13 @@
 
     .Story__video {
         height: 45vw;
+    }
+
+    .Story__figure {
+        margin-bottom: 4vw;
+    }
+
+    .Story__figure > figcaption {
+        font-size: 3vw;
     }
 }

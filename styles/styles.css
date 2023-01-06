@@ -85,10 +85,18 @@ a {
     align-items: center;
 }
 
+.Story__figure {
+    margin-bottom: 2vw;
+}
+
+.Story__figure > figcaption {
+    font-size: 1vw;
+}
+
 .Story__image {
     width: 15vw;
     height: 21vw;
-    margin-bottom: 2vw;
+    margin-bottom: 0.5vw;
     object-fit: contain;
 }
 
@@ -105,7 +113,7 @@ a {
 .Story__video {
     width: 36vw;
     height: 21vw;
-    margin-bottom: 2vw;
+    margin-bottom: 0.5vw;
 }
 
 .Story__description__link {
