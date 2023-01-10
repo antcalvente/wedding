@@ -19,6 +19,7 @@
 
 body {
     background: url("../images/background.jpg") repeat-y;
+    background-size: 100%;
     font-family: Monserrat, sans-serif;
     text-align: center;
 }
